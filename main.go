@@ -66,7 +66,7 @@ type weatherData struct {
 }
 
 type weatherProvider interface {
-	temperature(city string) (float64, error) // in Kelvin, naturally
+	temperature(city string) (float64, error)
 }
 
 type openWeatherMap struct{}
